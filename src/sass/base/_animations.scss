@@ -1,0 +1,11 @@
+@keyframes heardbeat {
+	from {
+		transform: scale(1); //100%
+	}
+	50% {
+		transform: scale(1.25); //100% + 10%
+	}
+	to {
+		transform: scale(1); //100%
+	}
+}

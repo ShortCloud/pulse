@@ -1,0 +1,40 @@
+.reviews{
+	padding-bottom: 49px;
+	&__wrapper{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		:first-child{
+			margin-top: 60px;
+		}
+		margin-bottom: 60px;
+		img {	
+			display: block;
+			margin-right: 61px;
+		}
+	}
+	&__name {
+			font-size: 18px;
+			line-height: 18px;
+			color: #0D0D0D;
+			font-weight: bold;
+		}
+	&__maraphones{
+		margin-bottom: 10px;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 22px;
+		color: #646464;
+	}
+	&__descr{
+		font-style: normal;
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 24px;
+		span{
+			font-style: oblique 35deg;
+		}
+	}
+}

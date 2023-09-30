@@ -1,0 +1,44 @@
+.carousel{
+	padding: 81px 0px;
+	&__inner {
+		position: relative;
+		width: 750px;
+		margin: 0 auto;
+		.slick-dots {
+		 	display: flex !important;
+			justify-content: space-around;
+			align-items: center;
+			padding-top: 50px;
+			li {
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+				button{
+					background-color: #f9f9fa;
+					border: 1px solid $main-color;
+					border-radius: 5px;
+					line-height: 28px;
+					font-size: 25px;
+				}
+			}
+		}
+	}
+	.slick-prev, .slick-next {
+		position: absolute;
+		top:50%; //ебанул на середину слайдера по Y
+		transform: translateY(-50%); //немного не въебал
+		left: -66px;
+		background-color:white;
+		border: none;
+		img {
+			width: 31px;
+			height: 50px;
+		}
+	}
+	.slick-next {
+		right: -66px;
+		left: auto;
+	}
+	
+}
+

@@ -1,0 +1,548 @@
+@media all and (max-width: 1023px) {
+	.header {
+		margin-right: 30px;
+		margin-left: 30px;
+	}
+
+	.promo__wrapper {
+		align-items: center;
+	}
+
+	.benefits {
+		&__items {
+			flex-direction: column;
+			align-items: center;
+		}
+		&__text {
+			margin-bottom: 30px;
+		}
+	}
+
+	
+	.carousel {
+		&__item{
+			img{
+				display: block;
+				margin: 0 auto;
+			}
+		}
+	}
+
+	.title_left{
+		font-size: 25px;
+		text-align: center;
+	}
+
+	.feed-form{
+		display: block;
+		padding-top: 30px;
+		margin: 0 auto;
+	}
+
+	.consultation {
+		&__descr{
+			text-align: center;
+		}
+	}
+
+	.catalog__content{
+		display: flex;
+		flex-direction: column;
+		align-items:center;
+	}
+
+	.reviews {
+		padding: 0 30px 0px 30px;
+		&__descr{
+			font-size: 15px;
+			line-height: 15px;
+		}
+	}
+
+}
+
+@media all and (max-width: 769px) {
+	.header {
+		margin-right: 30px;
+		margin-left: 30px;
+	}
+
+	.promo__wrapper {
+		align-items: center;
+	}
+
+	.benefits {
+		&__items {
+			flex-direction: column;
+			align-items: center;
+		}
+		&__text {
+			margin-bottom: 30px;
+		}
+	}
+
+	.title_left{
+		font-size: 25px;
+		text-align: center;
+	}
+
+	.feed-form{
+		display: block;
+		padding-top: 30px;
+		margin: 0 auto;
+	}
+
+	.consultation {
+		padding-top: 50px;
+		&__descr{
+			text-align: center;
+		}
+	}
+
+	.carousel {
+		&__item{
+			img{
+				display: block;
+				width: 50%;
+				height: 50%;
+				margin: 0 auto;
+			}
+		}
+	}
+
+	
+	.catalog__content{
+		display: flex;
+		flex-direction: column;
+		align-items:center;
+	}
+
+	.reviews {
+		padding: 0 30px 0px 30px;
+		&__descr{
+			font-size: 15px;
+			line-height: 15px;
+		}
+	}
+
+	.footer__info{
+		top:25%;
+	}
+
+}
+
+@media all and (max-width: 426px) {
+	.promo{
+		padding-left: 25px;
+		padding-right: 25px;
+		padding-bottom: 53px;
+		&__header{
+			font-size: 30px;
+			line-height: 30px;
+		}
+		&__subheader{
+			font-size: 20px;
+			line-height: 20px;
+		}
+		&__icons{
+			flex-direction: row;
+			max-width: 320px;
+			align-items: center;
+			img{
+				margin-top: 15px;
+			}
+		}
+		&__link{
+			font-size: 17px;
+		}
+		.button_main{
+			max-width: 300px;
+			margin-top: 38px;
+			font-size: 15px;
+		}
+	}
+	.header{
+		flex-direction: column;
+		align-items: center;
+		&__logo{
+			width: 250px;
+			margin-bottom: 15px;
+		}
+		&__official{
+			font-size: 17px;
+			span{
+				font-size: 17px;
+				line-height: 17px;
+			}
+		}
+		&__phone{
+			font-size: 17px;
+		}
+		&__contacts{
+			flex-direction: row;
+			margin-left: 15px; //багань, лень фиксить.
+			button{
+				width: 200px;
+				font-size: 15px;
+			}
+		}
+	}
+
+	.benefits{
+		.title{
+			font-size: 25px;
+		}
+		&__item{
+			img{
+				width: 70px;
+				height: 70px;
+			}
+		}
+		&__text{
+			max-width: 350px;
+		}
+	}
+
+	.consultation{
+		.title_left{
+			font-size: 18px;
+			line-height: 24px;
+		}
+		&__descr{
+			font-size: 15px;
+			line-height: 18px;
+		}
+		.feed-form{
+		max-width: 300px;
+	}
+	}
+	
+	.carousel{
+		&__inner {
+			max-width: 425px;
+		}
+	}
+
+	.catalog{
+		padding-bottom: 0;
+	}
+
+	.reviews{
+		max-width: 425px;
+		&__wrapper{
+			flex-direction: column;
+			align-items: center;
+			img{
+			display: block;
+			margin: 0 auto;
+			width: 50%;
+			height: 50%;
+			}
+		}
+		&__descr{
+			text-align: center;
+			line-height: 18px;
+			max-width: 300px;
+		}
+	}
+	.catalog{
+		&__tabs{
+			flex-direction: column;
+			li{
+				margin-top: 20px;
+			}
+		}
+	}
+	.footer{
+		&__info{
+			max-width: 325px;
+			border-radius: 5px;
+		}
+		&__social-item{
+			border: none;
+		}
+	}
+
+	.pageUp{
+		bottom: 10px;
+		right: 10px;
+		width: 40px;
+		height: 40px;
+	}
+}
+
+@media all and (max-width: 376px) {
+	.promo{
+		padding-left: 25px;
+		padding-right: 25px;
+		padding-bottom: 53px;
+		&__header{
+			font-size: 20px;
+			line-height: 20px;
+		}
+		&__subheader{
+			font-size: 12px;
+			line-height: 12px;
+		}
+		&__icons{
+			flex-direction: column;
+			max-width: 320px;
+			align-items: center;
+			img{
+				margin-top: 15px;
+			}
+		}
+		&__link{
+			font-size: 13px;
+		}
+		.button_main{
+			max-width: 150px;
+			margin-top: 38px;
+			font-size: 10px;
+		}
+	}
+	.header{
+		flex-direction: column;
+		align-items: center;
+		&__logo{
+			width: 150px;
+			margin-bottom: 15px;
+		}
+		&__official{
+			font-size: 11px;
+			span{
+				font-size: 11px;
+				line-height: 16px;
+			}
+		}
+		&__phone{
+			font-size: 11px;
+		}
+		&__contacts{
+			button{
+				width: 100px;
+				font-size: 9px;
+			}
+		}
+	}
+
+	.benefits{
+		.title{
+			font-size: 17px;
+		}
+		&__item{
+			img{
+				width: 50px;
+				height: 50px;
+			}
+		}
+		&__text{
+			max-width: 200px;
+		}
+	}
+
+	.consultation{
+		.title_left{
+			font-size: 13px;
+			line-height: 24px;
+		}
+		&__descr{
+			font-size: 13px;
+			line-height: 18px;
+		}
+		.feed-form{
+		max-width: 265px;
+	}
+	}
+	
+	.carousel{
+		&__inner {
+			max-width: 375px;
+		}
+	}
+
+	.catalog{
+		padding-bottom: 0;
+	}
+
+	.reviews{
+		max-width: 375px;
+		&__wrapper{
+			flex-direction: column;
+			align-items: center;
+			img{
+			display: block;
+			margin: 0 auto;
+			width: 50%;
+			height: 50%;
+			}
+		}
+		&__descr{
+			text-align: center;
+			line-height: 18px;
+			max-width: 300px;
+		}
+	}
+	.catalog{
+		&__tabs{
+			flex-direction: column;
+			li{
+				margin-top: 20px;
+			}
+		}
+	}
+	.footer{
+		&__info{
+			max-width: 325px;
+			border-radius: 5px;
+		}
+		&__social-item{
+			border: none;
+		}
+	}
+
+	.pageUp{
+		bottom: 10px;
+		right: 10px;
+		width: 40px;
+		height: 40px;
+	}
+}
+
+@media all and (max-width: 321px) {
+	.promo{
+		padding-left: 25px;
+		padding-right: 25px;
+		padding-bottom: 53px;
+		&__header{
+			font-size: 20px;
+			line-height: 20px;
+		}
+		&__subheader{
+			font-size: 12px;
+			line-height: 12px;
+		}
+		&__icons{
+			flex-direction: column;
+			max-width: 320px;
+			align-items: center;
+			img{
+				margin-top: 15px;
+			}
+		}
+		&__link{
+			font-size: 13px;
+		}
+		.button_main{
+			max-width: 150px;
+			margin-top: 38px;
+			font-size: 10px;
+		}
+	}
+	.header{
+		flex-direction: column;
+		align-items: center;
+		&__logo{
+			width: 150px;
+			margin-bottom: 15px;
+		}
+		&__official{
+			font-size: 11px;
+			span{
+				font-size: 11px;
+				line-height: 16px;
+			}
+		}
+		&__phone{
+			font-size: 11px;
+		}
+		&__contacts{
+			button{
+				width: 100px;
+				font-size: 9px;
+			}
+		}
+	}
+
+	.benefits{
+		.title{
+			font-size: 17px;
+		}
+		&__item{
+			img{
+				width: 50px;
+				height: 50px;
+			}
+		}
+		&__text{
+			max-width: 200px;
+		}
+	}
+
+	.consultation{
+		.title_left{
+			font-size: 13px;
+			line-height: 24px;
+		}
+		&__descr{
+			font-size: 13px;
+			line-height: 18px;
+		}
+		.feed-form{
+		max-width: 265px;
+	}
+	}
+	
+	.carousel{
+		&__inner {
+			max-width: 320px;
+		}
+	}
+
+	.catalog{
+		padding-bottom: 0;
+	}
+
+	.reviews{
+		max-width: 320px;
+		&__wrapper{
+			flex-direction: column;
+			align-items: center;
+			img{
+			display: block;
+			margin: 0 auto;
+			width: 50%;
+			height: 50%;
+			}
+		}
+		&__descr{
+			text-align: center;
+			line-height: 18px;
+			max-width: 300px;
+		}
+	}
+	.catalog{
+		&__tabs{
+			flex-direction: column;
+			li{
+				margin-top: 20px;
+			}
+		}
+	}
+	.footer{
+		&__info{
+			max-width: 300px;
+			border-radius: 5px;
+		}
+		&__social-item{
+			border: none;
+		}
+	}
+
+	.pageUp{
+		bottom: 10px;
+		right: 10px;
+		width: 40px;
+		height: 40px;
+	}
+}
